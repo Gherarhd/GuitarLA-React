@@ -16,7 +16,7 @@ function Header({ cart,removeFromCart,increaseQuantity,decreaseQuantity,clearCar
             <a href="index.html">
               <img
                 className="img-fluid"
-                src="./public/img/logo.svg"
+                src="/img/logo.svg"
                 alt="imagen logo"
               />
             </a>
@@ -25,7 +25,7 @@ function Header({ cart,removeFromCart,increaseQuantity,decreaseQuantity,clearCar
             <div className="carrito">
               <img
                 className="img-fluid"
-                src="./public/img/carrito.png"
+                src="/img/carrito.png"
                 alt="imagen carrito"
               />
               <div id="carrito" className="bg-white p-3">
